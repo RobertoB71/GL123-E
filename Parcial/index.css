@@ -26,6 +26,7 @@ nav ul{
 .menu-item{
     float:left;
     margin-bottom: 20px;
+
 }
 
 .menu-item a{
@@ -34,7 +35,7 @@ nav ul{
     text-transform:uppercase;
     padding: 15px;
     font-weight: 600;
-    display:inline-block;   
+    display:inline-block;
 }
 
 .banner{
@@ -66,3 +67,4 @@ nav ul{
 .lupa{
     margin: 15px;
 }
+
