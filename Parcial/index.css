@@ -69,5 +69,82 @@ nav ul{
 }
 
 .Boton1{
+    background-color: white;
+    border: transparent;
+    padding: 25px;
+    border-radius: 5px;
+    position: absolute;
+    left: 17%;
+    top: 40%;
+    text-transform: uppercase;
+}
+
+.Boton2{
+    background-color: white;
+    border: transparent;
+    padding: 25px;
+    border-radius: 5px;
+    position: absolute;
+    left: 44%;
+    top: 69%;
+}
+
+.Boton3{
+    background-color: white;
+    border: transparent;
+    padding: 25px;
+    border-radius: 5px;
+    position: absolute;
+    left: 44%;
+    top: 96%;
+}
+
+
+.Boton1:hover{
+text-decoration: underline;
+
+}
+
+.Boton2:hover{
+    text-decoration: underline;
     
+}
+
+.Boton3:hover{
+    text-decoration: underline;
+    
+}
+
+.ultimo{
+    height: 100%;
+    background-color: black;
+}
+
+.ultimo h1{
+    text-align: center;
+    color: white;
+    text-decoration: overline;
+    size: 20px;
+    text-transform: uppercase;
+}
+
+.ultimo h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    size: 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ultimo h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    size: 1px;
+    padding: 10px;
+    border-radius: 10px;
+
 }
