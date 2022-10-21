@@ -1,0 +1,170 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: yellow;
+}
+header ul{
+    padding: 7px;
+    color: white;
+    list-style-type: none;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+   width: 100%;
+   padding: 5px;
+}
+header img{
+    width: 15%;
+}
+.Contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header li a{
+    max-width: 200px;
+    padding-left: 10%;
+}
+
+
+.Banner{
+    width: 100%;
+}
+
+.Contenedorflex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.conf{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 90px;
+}
+
+.conf2{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 20px;
+}
+
+.conf3{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 20px;
+}
+
+.conf3 h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.conf4{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.conf4 h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+.conf img{
+    padding: 15px;
+    width: 80%;
+    margin-left: 18px;
+}
+
+.conf22 img{
+    width: 30%;
+    padding: 15px;
+   
+}
+.conf22 {
+    margin-right: 35px;
+}
+
+.comida{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.comida div{
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div h1{
+    font-weight: 1000;
+    text-decoration: underline;
+}
+
+.ultima{
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px solid white;
+    color: white;
+}
+
+.fondo3{
+    background: url(img/CyberpunkBanner22.jpg);
+}
+
+h1{
+    text-decoration: underline;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+p{
+    text-transform: uppercase;
+    font-weight: 750;
+}
+
+footer img{
+    width: 5%;
+}
+
+#conf{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+width: 75%;
+grid-gap: 30px;
+}
+
+#conf img{
+    width: 98%;
+    transition: all 300ms;
+    position: relative;
+    margin: 10%;
+}
+
+#conf img:hover{
+    transform: scale(1.25,1.25);
+}
